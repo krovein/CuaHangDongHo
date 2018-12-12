@@ -28,7 +28,7 @@
 
 
                 <div class="action_bottom">
-                    <input class="btn btn-signin" type="submit" value="Đăng nhập nhập">
+                    <input class="btn btn-signin" type="submit" value="Đăng nhập">
                 </div>
                 <div class="req_pass">
                     <a href="#">Quên mật khẩu?</a>
