@@ -54,7 +54,7 @@
 #thantrang{margin-top:10px;overflow:hidden}
 
 
-#trangtrai{float:left;height:100%;margin-right:5px;overflow:hidden;width:280px}
+#trangtrai{float:right;height:100%;margin-left:5px;overflow:hidden;width:280px}
 
 #danhmuc{overflow:hidden;width:100%}
 .daumuc{background:#f75d75;border-radius:7px 7px 0 0;height:35px}
