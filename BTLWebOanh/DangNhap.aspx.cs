@@ -17,7 +17,8 @@ namespace BTLWebOanh
             string matkhau = Request.Form["txtPassword"];
             if (!IsPostBack)
             {
-                if (email != null)
+
+                if (email != null && matkhau != null)
                 {
                     using (SqlConnection connection = new SqlConnection(Connect.ConnectionString))
                     {
@@ -42,6 +43,14 @@ namespace BTLWebOanh
                         }
                     }
                 }
+                //else if (string.IsNullOrEmpty(email))
+                //{
+                //    Response.Write("<script >alert('Vui lòng nhập email');</script>");
+                //}
+                //else if (string.IsNullOrEmpty(matkhau))
+                //{
+                //    Response.Write("<script >alert('Vui lòng nhập mật khẩu');</script>");
+                //}
             }
         }
     }

@@ -28,7 +28,7 @@
 
 
                 <div class="action_bottom">
-                    <input class="btn btn-signin" type="submit" value="Đăng nhập">
+                    <input class="btn btn-signin" onclick="return check();" type="submit" value="Đăng nhập">
                 </div>
                 <div class="req_pass">
                     <a href="#">Quên mật khẩu?</a>
@@ -38,4 +38,19 @@
             </form>
         </div>
     </div>
+    <script type="text/javascript">
+        function check(){
+            var email = $('#txtEmail').val();
+            var pass = $('#txtPassword').val();
+            if (email == null || email == '') {
+                alert('Vui lòng nhập email!');
+                return false;
+            }
+            if (pass == null || pass == '') {
+                alert('Vui lòng nhập mật khẩu!');
+                return false;
+            }
+            return true;
+        }
+    </script>
 </asp:Content>

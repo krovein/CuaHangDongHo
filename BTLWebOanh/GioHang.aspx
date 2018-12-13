@@ -53,6 +53,7 @@
                     </tbody>
                 </table>
             </div>
+            <asp:Label ID="lbtongtien" runat="server"/>
             <div class="modal-footer">
                 <div class="row" style="margin-top: 10px;">
                     <div class="col-lg-6">
